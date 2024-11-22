@@ -39,14 +39,14 @@ header.blurred {
    color: white;
 }
 
-.hero{
+.hero {
     color: white;
     padding: 100px;
     text-align: center;
-background-image: url(../img/youth.jpg); /* Corrected path */
+    background-image: url(../img/youth.jpg); /* Corrected path */
     background-repeat: no-repeat;
     background-size: cover;
-    height: 370px;
+    height: 450px;
     background-attachment: fixed;
 }
 
