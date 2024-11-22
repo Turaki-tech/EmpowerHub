@@ -43,7 +43,7 @@ header.blurred {
     color: white;
     text-align: center;
     padding: 100px;
-    background-image: url(/img/youth.jpg);
+    background-image: url(./img/youth.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 370px;
