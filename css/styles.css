@@ -45,7 +45,7 @@ header.blurred {
     text-align: center;
 background-image: url(../img/youth.jpg); /* Corrected path */
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     height: 370px;
     background-attachment: fixed;
 }
