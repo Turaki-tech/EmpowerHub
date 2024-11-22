@@ -39,22 +39,11 @@ header.blurred {
    color: white;
 }
 
-.header{
-    color: white;
-    padding: 100px;
-    text-align: center;
-    background-image: url(./img/header\ img~4.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 450px;
-    background-attachment: fixed;
-}
-
 .hero{
     color: white;
     padding: 100px;
     text-align: center;
-    background-image: url(./img/header\ youth.jpg);
+    background-image: url(./ youth.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 370px;
