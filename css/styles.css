@@ -51,10 +51,9 @@ header.blurred {
 }
 
 .hero{
-    color:;
+    color:white;
     text-align: center;
     padding: 100px;
-    background-color: red;
     background-image: url(./img/header\youth.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
