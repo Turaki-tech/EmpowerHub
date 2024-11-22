@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Fellow Posts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/mentor.css">
+</head>
+<body>
+ <header id="sticky-header">
+        <nav class="navbar">
+            <div class="logo">
+               <a href="index.html">
+                 <h3>EmpowerHub</h3>
+               
+              <!-- <img src="./img/3mtt.jpg" alt="logo" width="50" class="logo">
+               -->
+               
+               </a>
+            </div>
+            
+            <ul class="nav-links">
+                 <li> <a href="contact.html">Contact</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li> <a href="support.html">Support</a></li>
+               <li><a href="login.html" style="background-color: #ff6b6b; color: #fff; border: none;  padding: 5px 10px;  border-radius: 20px;  cursor: pointer;font-size: 0.8rem;">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Register as a Mentor</h1>
+        <p>Empower and inspire the next generation of leaders by sharing your expertise.</p>
+        <a href="#register-form" class="read-more">Get Started</a>
+    </section>
+
+    <!-- About Mentorship -->
+    <section class="container">
+        <h2>Why Become a Mentor?</h2>
+        <p>Mentorship is a powerful way to make a lasting impact. By becoming a mentor at EmpowerHub, you can:</p>
+        <ul>
+            <li>Help mentees navigate their personal and professional journeys.</li>
+            <li>Gain new perspectives and expand your network.</li>
+            <li>Contribute to building a thriving community of empowered youth.</li>
+        </ul>
+    </section>
+
+    <!-- Mentor Responsibilities -->
+    <section class="container">
+        <h2>What We Expect from Mentors</h2>
+        <ul>
+            <li>Provide guidance and support tailored to each mentee's goals.</li>
+            <li>Offer insights and expertise in your area of specialization.</li>
+            <li>Engage in regular check-ins with mentees.</li>
+            <li>Encourage and inspire mentees to unlock their potential.</li>
+        </ul>
+    </section>
+
+    <!-- Mentor Registration Form -->
+    <section id="register-form" class="container">
+        <h2>Register as a Mentor</h2>
+        <p>Fill out the form below to join our network of dedicated mentors.</p>
+        <form action="submit-mentor-form.php" method="post">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="profession" placeholder="Profession/Field of Expertise" required>
+            <input type="text" name="experience" placeholder="Years of Experience" required>
+            <textarea name="bio" rows="4" placeholder="Tell us why you want to become a mentor" required></textarea>
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="container">
+        <h2>Have Questions?</h2>
+        <p>Contact us at <a href="mailto:support@empowerhub.com">support@empowerhub.com</a> for more information about becoming a mentor.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EmpowerHub. All Rights Reserved.</p>
+    </footer>
+<script src="js/script.js"></script>
+</body>
+</html>

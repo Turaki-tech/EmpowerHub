@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Fellow Posts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/mentor.css">
+</head>
+<body>
+ <header id="sticky-header">
+        <nav class="navbar">
+            <div class="logo">
+               <a href="index.html">
+                 <h3>EmpowerHub</h3>
+               
+              <!-- <img src="./img/3mtt.jpg" alt="logo" width="50" class="logo">
+               -->
+               
+               </a>
+            </div>
+            
+            <ul class="nav-links">
+                 <li> <a href="contact.html">Contact</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li> <a href="support.html">Support</a></li>
+               <li><a href="login.html" style="background-color: #ff6b6b; color: #fff; border: none;  padding: 5px 10px;  border-radius: 20px;  cursor: pointer;font-size: 0.8rem;">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Mentorship Program</h1>
+        <p>Empowering youth through guidance, support, and expertise.</p>
+        <a href="#mentorship-details" class="read-more">Learn More</a>
+    </div>
+
+    <section id="mentorship-details" class="container">
+        <h2>About the Mentorship Program</h2>
+        <p>The Mentorship Program at EmpowerHub connects aspiring individuals with experienced professionals who can guide them in their personal and professional journeys.</p>
+<br>
+        <div class="mentorship-grid">
+            <div class="mentorship-card">
+                <h3>What We Offer</h3>
+                <ul>
+                    <li>One-on-one mentoring sessions tailored to your goals.</li>
+                    <li>Workshops and training programs to boost your skills.</li>
+                    <li>Access to a network of industry professionals.</li>
+                    <li>Guidance on career paths, entrepreneurship, and personal growth.</li>
+                </ul>
+            </div>
+            <br>
+            <div class="mentorship-card">
+                <h3>Who Can Apply?</h3>
+                <ul>
+                    <li>Students seeking career guidance.</li>
+                    <li>Young professionals looking to enhance their skills.</li>
+                    <li>Aspiring entrepreneurs with innovative ideas.</li>
+                    <li>Anyone eager to learn and grow!</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="mentor-registration" class="container">
+        <h2>Register here</h2>
+        <p>And make a meaningful impact on the next generation of your life.</p>
+        <form action="submit_mentor_registration.php" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="numbee" placeholder="Your number" required>
+            <textarea name="bio" placeholder="Brief Bio (Tell us about yourself)" rows="5" required></textarea>
+            <button type="submit">Register</button>
+        </form>
+ <a href="mentor.html" class="read-more">Register as a Mentor</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EmpowerHub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

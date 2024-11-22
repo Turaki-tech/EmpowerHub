@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Fellow Posts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/res.css">
+</head>
+<body>
+ <header id="sticky-header">
+        <nav class="navbar">
+            <div class="logo">
+               <a href="index.html">
+                 <h3>EmpowerHub</h3>
+               
+              <!-- <img src="./img/3mtt.jpg" alt="logo" width="50" class="logo">
+               -->
+               
+               </a>
+            </div>
+            
+            <ul class="nav-links">
+                 <li> <a href="contact.html">Contact</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li> <a href="support.html">Support</a></li>
+               <li><a href="login.html" style="background-color: #ff6b6b; color: #fff; border: none;  padding: 5px 10px;  border-radius: 20px;  cursor: pointer;font-size: 0.8rem;">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Resources Hub</h1>
+        <p>Access a world of knowledge, tools, and opportunities to fuel your growth.</p>
+        <a href="#resources-list" class="read-more">Explore Resources</a>
+    </div>
+
+    <section id="resources-overview" class="container">
+        <h2>What We Offer</h2>
+        <p>EmpowerHub provides a variety of free and premium resources to help you succeed in your personal and professional journey. From tutorials to templates, we've got you covered.</p>
+    </section>
+
+    <section id="resources-list" class="container">
+        <h2>Our Top Resources</h2>
+        <div class="resources-grid">
+ <div class="resource-card">
+                <h3>Job Boards</h3>
+                <p>Find job opportunities tailored to your skills and career goals with our curated listings.</p>
+                <a href="https://3mtt.seamlesshiring.com/h/advanced#/jobs" class="read-more">Browse Jobs</a>
+            </div>
+        </div>
+            <div class="resource-card">
+                <h3>Skill Development Guides</h3>
+                <p>Step-by-step tutorials to help you master essential skills in technology, business, and more.</p>
+                <a href="https://drive.google.com/drive/folders/1-4m3aoHpkMC032U4HJBio1QxsEgCEYdJ" class="read-more">Download</a>
+            </div>
+            <div class="resource-card">
+                <h3>Project Templates</h3>
+                <p>Get started quickly with our professionally designed templates for websites, presentations, and more.</p>
+                <a href="https://drive.google.com/drive/folders/1-1diYjUyC-hFiiQn9cTpmTGVbMB4IvT0" class="read-more">Explore</a>
+            </div>
+            <div class="resource-card">
+                <h3>E-Books and Articles</h3>
+                <p>Access a library of e-books, white papers, and articles to deepen your knowledge in various fields.</p>
+                <a href="https://drive.google.com/drive/folders/13BX9rSkmLWw-hbpdzZJvO5XdLZElRuI3" class="read-more">Read Now</a>
+            </div>
+           
+    </section>
+
+    <section id="featured-tools" class="container">
+        <h2>Featured Tools</h2>
+        <p>Discover tools designed to simplify your tasks and boost your productivity.</p>
+        <div class="resources-grid">
+            <div class="resource-card">
+                <h3>Task Management Apps</h3>
+                <p>Organize your tasks and projects efficiently with our recommended apps.</p>
+                <a href="https://taskmasterr.vercel.app/" class="read-more">Learn More</a>
+            </div>
+            <div class="resource-card">
+                <h3>Design Tools</h3>
+                <p>Explore tools for creating stunning visuals, prototypes, and presentations.</p>
+                <a href="https://drive.google.com/drive/folders/1-1diYjUyC-hFiiQn9cTpmTGVbMB4IvT0" class="read-more">Try Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contribute-resources" class="container">
+        <h2>Contribute Resources</h2>
+        <p>Have a valuable resource to share? Submit it to EmpowerHub and help others in their journey.</p>
+        <form action="submit_resource.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="resource" placeholder="Describe the resource you'd like to share" rows="5" required></textarea>
+            <button type="submit">Submit Resource</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 EmpowerHub. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<section class="contact-form">
+        <h2>Create an Account</h2>
+        <form id="signup-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+            <label for="name">Phone Number:</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your number">
+                </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required placeholder="Create a password">
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" name="confirm-password" required placeholder="Confirm your password">
+            </div>
+            <input type="submit" value="Sign up" class="submit-btn">
+        </form>
+        <br>
+        <p id="success-message" style="display:none; color: green;">Registration successful!</p>
+        <div class="forgot-password">
+            <p>Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </section>
+    <script src="js/auth.js"></script>
+</body>
+</html>
