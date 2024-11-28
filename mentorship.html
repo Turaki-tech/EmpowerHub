@@ -75,18 +75,19 @@
     <section id="mentor-registration" class="container">
         <h2>Register here</h2>
         <p>And make a meaningful impact on the next generation of your life.</p>
-        <form action="submit_mentor_registration.llphp" method="POST">
+        <form ction="submit">
             <input type="text" name="name" placeholder="Full Name" required>
             <input type="email" name="email" placeholder="Email Address" required>
-            <input type="text" name="numbee" placeholder="Your number" required>
+            <input type="text" name="number" placeholder="Your number" required>
             <textarea name="bio" placeholder="Brief Bio (Tell us about yourself)" rows="5" required></textarea>
             <button type="submit">Register</button>
             
-     <div id="popup">
+        </form>
+        
+ <div id="popup">
         <p>Thank you for registering! Our team will review your details and contact you shortly to begin your mentorship journey.</p>
         <button onclick="closePopup()">Close</button>
     </div>
-        </form>
         
  <a href="mentor.html" class="read-more">Register as a Mentor</a>
     </section>
