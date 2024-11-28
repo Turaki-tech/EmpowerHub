@@ -87,3 +87,16 @@ function typeEffect() {
 
 // Start the animation
 typeEffect();
+
+//popup
+const form = document.getElementById('contactForm');
+        const popup = document.getElementById('popup');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            popup.style.display = 'block'; // Show popup
+        });
+
+        function closePopup() {
+            popup.style.display = 'none'; // Close popup
+        }
