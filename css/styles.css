@@ -6,9 +6,10 @@
 }
 
 body {
-    font-family: 'poppins', sans-serif;
-    line-height: 1.6;
-    height: 100%;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #fff;
 }
 
 header {
@@ -33,38 +34,73 @@ header.blurred {
    margin-top:4px;
 }
 
+
 .logo a{
    text-decoration: none;
-   text-size:bold;
+   font-size:bold;
    color: white;
 }
 
+
 .hero {
     color: white;
-    padding: 100px;
+    padding: 50px;
     text-align: center;
-    background-image: url(../img/youth.jpg); /* Corrected path */
+    background-image: url(../img/event4.png); 
+    /* Corrected path */
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 450px;
+    max-height: 450px;
     background-attachment: fixed;
+} 
+
+.hero h1 {
+    font-size: 1.8rem;
+    margin-top:80px;
+    line-height: 1.4;
+    color:white;
+    margin: 1rem 0 2 ;
 }
 
-
-.hero h1{
-    line-height: 3.6rem;
-    color: white;
-    margin-bottom: 10px;
+.hero h1 span {
+    color: #e42b0a;
 }
 
-.hero p{
-    font-size: 1.1em;
-    line-height: 2rem;
-    color: white;
-    max-width: 600px;
-    margin: 0 auto;
+.hero p {
+    max-width: 500px;
+    margin: 0 auto 1.5rem;
+    font-size: 1rem;
+    color: #ccc;
 }
 
+.explore-btn {
+    background: #e42b0a;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 2rem;
+}
+
+  .hero-image img {
+        width: 150px;
+    }
+
+
+
+/* Responsive */
+@media (max-width: 600px) {
+    .hero-2 h1 {
+        font-size: 2.5rem;
+    }
+    .hero-image img {
+        width: 60px;
+    }
+}
+
+/*
 .hero. {
   display: flex;
   justify-content: center;
@@ -72,16 +108,47 @@ header.blurred {
   height: 100vh;
   background-color: #f0f0f0;
 }
+*/
+
+.desc{
+    text-align: center;
+}
+
+.desc h1{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+}
+
+.desc p{
+    max-width: 500px;
+    margin: 0 auto 1.5rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+.desc-1 h2{
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+    text-align:center;
+    color: #0b1120;
+}
+
+.desc-1 {
+    max-width: 500px;
+    margin: 0 auto 1.5rem;
+    font-size: 1rem;
+    color: #0b1120;
+}
 
 #animated-text {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: white;
-  border-right: 2px solid #ff6b6b;
+    color: #e42b0a;
+    border-right: 2px solid #e42b0a;
   white-space: no;
   overflow: hidden;
   width: 100%;
-  animation: blink 0.15s step-end infinite;
+  animation: blink 1s step-end infinite;
 }
 
 @keyframes blink {
@@ -89,7 +156,7 @@ header.blurred {
     border-color: transparent;
   }
   to {
-    border-color: #ff6b6b;
+    border-color: #e42b0a;
   }
 }
 
@@ -98,6 +165,64 @@ header.blurred {
 nav a{
     text-align:center;
 }
+
+
+.hero-1 {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+
+.hero-1 h1 {
+    font-size: 1.5rem;
+    line-height: 1.3;
+    color:#0b1120;
+    margin: 1rem 0;
+}
+
+
+.underline {
+  width: 100px;
+  height: 2px;
+  background: #e42b0a;
+  border-radius:15px;
+  margin: 1rem auto;
+}
+
+.features-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 0.5fr));
+  gap: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.card-1 {
+  background: #ffe9d0c0;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.card-1 .icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.card-1 p {
+  color: #0d1b2a;
+  font-size:0.7rem;
+  margin-bottom: 0.3rem;
+}
+
+.card-1 h3 {
+  color: #0d1b2a;
+  margin-bottom: 0.3rem;
+}
+
+
+
+
 
 .navbar {
     display: flex;
@@ -127,7 +252,7 @@ nav a{
 }
 
 .nav-links a:hover {
-    background-color: #ff6b6b;
+    background-color: #e42b0a;
     border-radius:50px;
     padding:5px 15px;
 }
@@ -189,29 +314,29 @@ nav a{
 }
 
 .Mission{
-    background-color: #E34152;
+    background-color: #e42b0a;
     padding: 10%;
     color: rgb(255, 249, 249);
 }
 
 .Mission h3{
-   color: #181D3D;
+   color: #0b1120;
 }
 
 .Vision{
-    background-color: #181D3D;
+    background-color: #0b1120;
     padding: 10%;
     width:100%;
     color: rgb(255, 249, 249);
 }
 
 .Vision h3{
-   color: #E34152;
+   color: #e42b0a;
 }
 
 .signup-button a {
     text-decoration: none;
-    color: #333;
+    color: #0b1120;
     background-color: white;
     padding: 10px 20px;
     border-radius: 50px;
@@ -259,20 +384,20 @@ nav a{
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-color: #f6f2fa;
+    background-color: #e42b0a;
     font-size: 1rem;
     transition: all 0.3s ease;
 }
 
 .form-group input:focus {
-    border-color: #ff6b6b;
+    border-color: #e42b0a;
     outline: none;
 }
 
 .submit-btn {
     width: 100%;
     padding: 12px;
-    background-color: #ff6b6b;
+    background-color: #e42b0a;
     color: white;
     border: none;
     border-radius: 50px;
@@ -347,7 +472,7 @@ nav a{
 }
 
 .icon:hover {
-   background-color: #ff6b6b;
+   background-color: #e42b0a;
    color: #181D3D;
 }
 
@@ -359,7 +484,7 @@ nav a{
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    background-color: #f9f9f9;
+    background-color: #e42b0a;
 }
 
 /* Contact form styling */
@@ -392,7 +517,7 @@ nav a{
     font-size: 0.9rem;
     font-family: inherit;
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #e42b0a;
     transition: all 0.3s ease;
 }
 
@@ -400,7 +525,7 @@ nav a{
 .contact-form1 input[type="email"]:focus,
 .contact-form1 textarea:focus {
     outline: none;
-    border-color: #ff6b6b; /* Matches your button color */
+    border-color: #e42b0a; /* Matches your button color */
     background-color: #fff;
     box-shadow: 0 0 5px rgba(178, 209, 53, 0.2);
 }
@@ -411,7 +536,7 @@ nav a{
     padding: 12px;
     font-size: 1rem;
     color: #fff;
-    background-color: #ff6b6b;
+    background-color: #e42b0a;
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -419,7 +544,7 @@ nav a{
 }
 
 .contact-form1 .submit-button:hover {
-    background-color: #ff6b6b; /* Darker shade for hover */
+    background-color: #e42b0a; /* Darker shade for hover */
 }
 
 /* Responsive adjustments */
@@ -440,17 +565,7 @@ nav a{
     }
 }
 
-.desc{
-    text-align: center;
-}
 
-.desc h2{
-    margin: 50px 10px 5px;
-}
-
-.desc p{
-    margin: 10px 10px 50px;
-}
 
 /* Inspiration Wall Section */
 #inspiration-wall {
@@ -474,15 +589,15 @@ nav a{
 .inspiration-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 15px;
   justify-content: center;
 }
 .inspiration-card {
   background: #fff;
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px;
+  width: 350px;
   text-align: left;
   transform: translateY(100px);
   opacity: 0;
@@ -490,12 +605,12 @@ nav a{
 }
 .inspiration-card img {
   width: 100%;
-  height: 200px;
+  height: 100px;
   object-fit: cover;
 }
 .inspiration-card h3 {
   font-size: 1.25rem;
-  color: #ff6b6b;
+  color: #e42b0a;
   margin: 10px 20px 10px;
 }
 .inspiration-card p {
@@ -503,17 +618,23 @@ nav a{
   color: #333;
   margin: 0 20px 5px;
 }
+
+.icon a{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+}
 .read-more {
   display: inline-block;
   color: #fff;
-  background-color: #ff6b6b;
+  background-color: #e42b0a;
   padding: 5px 20px;
   border-radius: 15px;
   text-decoration: none;
   margin: 5px 20px 15px;
 }
 .read-more:hover {
-  background-color: #ff6b6b;
+  background-color: #181D3D;
 }
 
 /* Animation classes */
@@ -533,7 +654,7 @@ nav a{
   margin: 5px 20px 15px;
 }
 .cta-button:hover {
-  background-color: #ff6b6b;
+  background-color: #e42b0a;
 }
 
 .end{
@@ -563,7 +684,7 @@ nav a{
 
 /* Call-to-Action Form */
 #program-cta {
-    background: #ff6b6b;
+    background: #e42b0a;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
@@ -598,7 +719,7 @@ nav a{
 }
 
 #program-cta button:hover {
-    background: #ff6b6b;
+    background: #e42b0a;
 }
 
 #popup {
@@ -624,3 +745,173 @@ nav a{
     color: #007bff;
     font-weight: bold;
 }
+
+
+
+
+.bootcamp-section {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.bootcamp-card {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+ box-shadow: 0 4px 20px rgba(187, 75, 75, 0.2);
+}
+
+.card-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 2.4rem;
+  height:250px;
+  border-radius:  20px;
+  width: 100%;
+}
+
+.card-content h1{
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.card-content h3 {
+  text-align: left;
+  font-size: 0.9rem;
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+.explore-link {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.site-footer {
+  background: #0d1b2a;
+  color: #fff;
+  padding: 2rem 1rem;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.newsletter {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.newsletter h3 {
+  margin-bottom: 0.3rem;
+}
+
+.newsletter p {
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.newsletter input {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background: #1c2a3d;
+  color: #fff;
+}
+
+.newsletter button {
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+  background: linear-gradient(to right, #000428, #e42b0a);
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  text-align: left;
+}
+
+.footer-group h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-group a {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.social-icons {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  .social-icons a svg {
+    transition: transform 0.3s ease;
+  }
+
+  .social-icons a:hover svg {
+    transform: scale(1.2);
+  }
+
+  @media (min-width: 768px) {
+    .newsletter form {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .newsletter input {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .footer-grid {
+      grid-template-columns: repeat(3, 1fr);
+      text-align: left;
+    }
+
+    .social-icons {
+      justify-content: flex-start;
+    }
+  }
