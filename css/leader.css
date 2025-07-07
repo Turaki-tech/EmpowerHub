@@ -29,7 +29,7 @@ header.blurred {
     background-color: rgba(255, 255, 255, 0.1); /* Even more transparent background */
 }
 
-.logo{
+.logo h3{
    border-radius: 10px;
    margin-top:4px;
    color: white;
@@ -37,7 +37,7 @@ header.blurred {
 
 .logo a{
    text-decoration: none;
-   text-size:bold;
+   font-size: bold;
    color: white;
 }
 
@@ -75,7 +75,7 @@ nav a{
 }
 
 .nav-links a:hover {
-    background-color: #ff6b6b;
+    background-color: #e42b0a;
     border-radius:50px;
     padding:5px 15px;
 }
@@ -167,7 +167,7 @@ li {
 
 /* Hero Section */
 .hero {
-    background-color: #ff6b6b;
+    background-color: #e42b0a;
     color: #fff;
     text-align: center;
     padding: 50px 20px;
@@ -260,7 +260,7 @@ li {
 
 /* Call-to-Action Form */
 #program-cta {
-    background: #ff6b6b;
+    background: #e42b0a;
     color: #fff;
     padding: 40px 20px;
     text-align: center;
@@ -295,7 +295,7 @@ li {
 }
 
 #program-cta button:hover {
-    background: #ff6b6b;
+    background: #e42b0a;
 }
 
 /* Footer */
@@ -329,4 +329,57 @@ footer {
     text-decoration: none;
     color: #007bff;
     font-weight: bold;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    background-color: #181D3D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e42b0a;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.resource-card{
+    text-align: center;
+}
+
+.resource-card a{
+    background: #e42b0a;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 2rem;
 }
