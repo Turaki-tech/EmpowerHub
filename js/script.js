@@ -51,9 +51,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 //text animetion
 const phrases = [
-  "Empowering Young Minds",
-  "Building a Brighter Future",
-  "Shaping the Leaders of Tomorrow",
+  "Society",
+  "Country",
+  "Community",
 ];
 let currentPhraseIndex = 0;
 let currentCharIndex = 0;
